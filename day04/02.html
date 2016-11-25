@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form2</title>
+  </head>
+  <body>
+    <form action="form-responses/new" method="POST">
+      <!-- action에 주소로 정보 보냄 -->
+      <!-- 서버에 있는
+           POST : 정보 만듦
+           GET : 정보 요청
+           PUT : 정보 업데이트
+           DELETE : 정보 지움 -->
+
+      <label for="firstname">firstname</label>
+      <input type="text" id="firstname" name="firstname" value="default" size="100" autofocus><br>
+
+      <label for="password">password</label>
+      <input type="password" id="password" name="pswd"><br>
+
+      <label for="email">email</label>
+      <input type="email" id="email" name="userEmail" placeholder="hello@site.com"><br>
+
+
+      <input type="radio" name="weird" value="code-blue" checked>
+      <span>이것을 고르세요!</span>
+      <input type="radio" name="weird" value="code-red" checked>
+      <span>아니면 이것을 고르세요!</span><br>
+
+      <input type="checkbox" name="option" value="trusting" checked>
+      약관에 전부 동의합니다.
+      <input type="checkbox" name="optout" value="skeptical" disabled>
+       잠시만요. 이건 뭐죠?<br>
+
+      <select name="car">
+        <optgroup label="스위스 자동차">
+          <option value="bording">Volvo</option>
+          <option value="cool">Honda</option>
+        </optgroup>
+      </select><br>
+
+      <textarea name="user_message" rows="8" cols="40">
+      </textarea><br>
+
+      <input type="submit">
+    </form>
+  </body>
+</html>

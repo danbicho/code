@@ -1,0 +1,13 @@
+$('h1').css('color', 'blue');
+$('body').css('background-color', 'red');
+$('#everything').css('font-size', '20px');
+$('.holder').css('border', '1px solid black');
+$('ul li').css('font-weight', 'bold');
+$('h1').next().css('color', 'green');
+$('#secret').css('display', 'none');
+$('#secret').css('display', 'block');
+$('#change-me').append("<p>What's the difference between.</p>");
+$('#change-me').wrap('<p></p>');
+$('#change-me').append('<p>hahaha</p>');
+$('li').html('<p>this is list</p>');
+$('#everythig').append('<ul><li></li><li></li><li></li></ul>');

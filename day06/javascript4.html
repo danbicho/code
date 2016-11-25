@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>javascript4</title>
+  </head>
+  <body>
+    <div id="greeting">
+    </div>
+
+
+    <script type="text/javascript">
+      var visitor_name, welcome_message;
+
+      visitor_name = prompt("유저 이름");
+      welcome_message = visitor_name +'님 환영합니다!';
+      
+      document.querySelector('div').textContent = welcome_message;
+
+    </script>
+  </body>
+</html>
